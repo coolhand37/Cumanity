@@ -1,0 +1,124 @@
+/*********************************************
+	Inherited Styles
+**********************************************/
+
+html {
+    box-sizing: border-box;
+    color: #444;
+    font-size: 12pt;
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-weight: 300;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+
+/*********************************************
+	Defaults
+**********************************************/
+
+h1 {
+	margin: 0;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+main > div {
+    padding: 20px;
+}
+
+img {
+    border: none;
+}
+
+/*********************************************
+	Helpers
+**********************************************/
+
+/*********************************************
+    Layout
+**********************************************/
+
+.panel {
+    background-color: Grey;
+}
+
+.panel > div {
+    background-color: blue;
+    width: 960px;
+    margin: 0 auto;
+}
+
+header.main-header {
+    background-color: yellow;
+    height: 400px;
+    text-align: right;
+}
+
+.main-navigation {
+    background-color: blue;
+    position: relative;
+}
+
+.main-navigation > nav {
+    background-color: black;
+    margin-right: 20px;
+
+}
+
+.main-navigation > nav a {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo {
+    background-color: green;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+}
+
+main.main-container > div.maincontent {
+    background-color: orange;
+
+}
+
+div.maincontent {
+
+}
+
+.quote  {
+        font-style:     italic;
+        font-size:      175%;
+        font-stretch:       semi-condensed;
+
+
+}
+
+.definition {
+        font-size:      225%;
+
+}
+
+.grey {
+        color:      #707070;
+        font-size:  155%;
+        
+}
+
+
+/*********************************************
+    Components
+**********************************************/
