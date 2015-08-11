@@ -14,8 +14,6 @@
   ],
   "dependencies": {
     "normalize.css": "~3.0.3",
-    "backbone": "~1.2.1",
-    "jquery": "~2.1.4",
-    "handlebars": "~3.0.3"
+    "fontawesome": "~4.4.0"
   }
 }
